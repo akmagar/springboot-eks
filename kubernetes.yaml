@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-springboot-app
-          image: public.ecr.aws/g9q8u2z7/springboot-app:latest
+          image: public.ecr.aws/g9q8u2z7/docker-repo:latest
 
           imagePullPolicy: Always
           ports:
